@@ -1,0 +1,8 @@
+print("We are going to calculate your Basic Metabolic Rate, please fill the form")
+print("Weight in Kilograms(kg)", end=' ')
+Weight = input()
+print("Height in Centimeters(cm)", end=' ')
+Height = input()
+print("What is your age", end=' ')
+Age = input()
+print("You're Basic Metabolic Rate is: ", (10*int(Weight) + 6*int(Height)  - 5*int(Age)) )
